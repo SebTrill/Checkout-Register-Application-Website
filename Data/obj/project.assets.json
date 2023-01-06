@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "KSU.CS.CodeAnalyzers/1.0.2": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "KSU.CS.CodeAnalyzers/1.0.2": {
+      "sha512": "9aq+UFco5Ep1emyPA2d8lN4tgSXwrjc8lhwQquEhGnQmwSOUJyN7ifPk30NR9F3oVHKuDCL5McrioCw4WvJlIg==",
+      "type": "package",
+      "path": "ksu.cs.codeanalyzers/1.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE-2.0.txt",
+        "analyzers/dotnet/cs/CodeAnalyzers.dll",
+        "analyzers/dotnet/cs/PropertyChangedAnalyzers.dll",
+        "ksu.cs.codeanalyzers.1.0.2.nupkg.sha512",
+        "ksu.cs.codeanalyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "KSU.CS.CodeAnalyzers >= 1.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sgtri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\Data\\Data.csproj",
+      "projectName": "FriedPiper.Data",
+      "projectPath": "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\sgtri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sgtri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "KSU.CS.CodeAnalyzers": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

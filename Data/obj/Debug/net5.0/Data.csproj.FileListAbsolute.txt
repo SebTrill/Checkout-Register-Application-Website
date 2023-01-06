@@ -1,0 +1,12 @@
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\bin\Debug\net5.0\FriedPiper.Data.deps.json
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\bin\Debug\net5.0\FriedPiper.Data.dll
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\bin\Debug\net5.0\FriedPiper.Data.pdb
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\obj\Debug\net5.0\FriedPiper.Data.dll
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\obj\Debug\net5.0\refint\FriedPiper.Data.dll
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\obj\Debug\net5.0\FriedPiper.Data.pdb
+C:\Users\sgtri\Source\Repos\fried-piper-SebTrill\Data\obj\Debug\net5.0\ref\FriedPiper.Data.dll

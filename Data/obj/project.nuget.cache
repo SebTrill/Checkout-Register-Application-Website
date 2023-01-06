@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bx9XkwNCT0TZhnxc8ztg4LRFP/olR4gQIOzEM94pS2XR1eEMTFaTIvqDIg8vR3iQAjHqfpzpPRee+A9OjZkd9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\Data\\Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sgtri\\.nuget\\packages\\ksu.cs.codeanalyzers\\1.0.2\\ksu.cs.codeanalyzers.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
