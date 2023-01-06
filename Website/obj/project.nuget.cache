@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S2XmENN8byKqZ+YJqOIlryI0JlwgiY1V6dOVUABLFy/OF2Ou6Acw+miObFrTpu9jsEyguD2+qShVvTYoWgQ9eg==",
+  "dgSpecHash": "YRxUoziIAZQuzxS4xpBG8YNqep1Vcgb2pR67TlRuNR/oQ34k8tsqoo7Drd6PEfGEyzKToUG6lfaT4+lJGmyNmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\Website\\Website.csproj",
+  "projectFilePath": "C:\\Users\\sgtri\\source\\repos\\Checkout-Register-Application-Website\\Website\\Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sgtri\\.nuget\\packages\\ksu.cs.codeanalyzers\\1.0.2\\ksu.cs.codeanalyzers.1.0.2.nupkg.sha512"
   ],

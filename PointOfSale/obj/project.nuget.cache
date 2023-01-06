@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5PMcggASRHV720Ly21eVIX81R2V/C5TLDxzK5DwSHwbc1v765P/5Z1567GUTq5O6GG/0/PsKq4u7BOC+Bx0tYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sgtri\\source\\repos\\Checkout-Register-Application-Website\\PointOfSale\\PointOfSale.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sgtri\\.nuget\\packages\\ksu.cs.codeanalyzers\\1.0.2\\ksu.cs.codeanalyzers.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

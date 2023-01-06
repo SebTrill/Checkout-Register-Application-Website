@@ -5962,11 +5962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\DataTests\\DataTests.csproj",
+      "projectUniqueName": "C:\\Users\\sgtri\\source\\repos\\Checkout-Register-Application-Website\\DataTests\\DataTests.csproj",
       "projectName": "FriedPiper.DataTests",
-      "projectPath": "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\DataTests\\DataTests.csproj",
+      "projectPath": "C:\\Users\\sgtri\\source\\repos\\Checkout-Register-Application-Website\\DataTests\\DataTests.csproj",
       "packagesPath": "C:\\Users\\sgtri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\DataTests\\obj\\",
+      "outputPath": "C:\\Users\\sgtri\\Source\\Repos\\Checkout-Register-Application-Website\\DataTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5987,8 +5987,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\sgtri\\Source\\Repos\\fried-piper-SebTrill\\Data\\Data.csproj"
+            "C:\\Users\\sgtri\\source\\repos\\Checkout-Register-Application-Website\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\sgtri\\source\\repos\\Checkout-Register-Application-Website\\Data\\Data.csproj"
             }
           }
         }
