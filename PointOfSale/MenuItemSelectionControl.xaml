@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="FriedPiper.PointOfSale.MenuItemSelectionControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FriedPiper.PointOfSale"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style x:Key="buttonStyle" TargetType="Control">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Height" Value="70"/>
+            <Setter Property="Width" Value="210"/>
+        </Style>
+        <Style TargetType="Button" BasedOn="{StaticResource buttonStyle}"/>
+    </UserControl.Resources>
+    <ContentControl Name="controllerType">
+        <DockPanel>
+            <Grid DockPanel.Dock="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="0" Grid.Row="0" TextAlignment="Center" FontSize="25">Treats</TextBlock>
+                <TextBlock Grid.Column="1" Grid.Row="0" TextAlignment="Center" FontSize="25">Poppers</TextBlock>
+                <TextBlock Grid.Column="2" Grid.Row="0" TextAlignment="Center" FontSize="25">Platters</TextBlock>
+
+                <Button Grid.Column="0" Grid.Row="1" Click="FriedPieHandler">Fried Pie</Button>
+                <Button Grid.Column="0" Grid.Row="2" Click="FriedIceCreamHandler">Fried Ice Cream</Button>
+                <Button Grid.Column="0" Grid.Row="3" Click="FriedCandyBarHandler">Fried Candy Bar</Button>
+                <Button Grid.Column="0" Grid.Row="4" Click="FriedTwinkiesHandler">Fried Twinkies</Button>
+
+                <Button Grid.Column="1" Grid.Row="1" Click="AppleFrittersHandler">Apple Fritters</Button>
+                <Button Grid.Column="1" Grid.Row="2" Click="FriedBananasHandler">Fried Bananas</Button>
+                <Button Grid.Column="1" Grid.Row="3" Click="FriedCheesecakeHandler">Fried Cheesecake</Button>
+                <Button Grid.Column="1" Grid.Row="4" Click="FriedOreosHandler">Fried Oreos</Button>
+
+                <Button Grid.Column="2" Grid.Row="1" Click="PiperPlatterHandler">Piper Platter</Button>
+                <Button Grid.Column="2" Grid.Row="2" Click="PopperPlatterHandler">Popper Platter</Button>
+            </Grid>
+        </DockPanel>
+    </ContentControl>
+</UserControl>
