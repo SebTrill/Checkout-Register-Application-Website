@@ -1,0 +1,136 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@using FriedPiper.Data.MenuItems;
+@using FriedPiper.Data;
+
+<div class="text-center">
+    <h1 class="header">Fried Piper</h1>
+    <p style="text-align:center">The finest of fried delights!</p>
+</div>
+
+<form>
+    <div id="search">
+        <input type="text" name="SearchTerms" value="@Model.SearchTerms" />
+        <input type="submit" value="Search">
+    </div>
+
+    <div class="item-type">
+        <h4 style="text-align:center">Item Types</h4>
+        <div style="text-align:center">
+            <label>
+                <input type="checkbox" name="Treat" value="@Model.Names[0]" checked="@Model.Treat" />
+                Treats
+            </label>
+        </div>
+        <div style="text-align:center">
+            <label>
+                <input type="checkbox" name="Popper" value="@Model.Names[1]" checked="@Model.Popper" />
+                Poppers
+            </label>
+        </div>
+        <div style="text-align:center">
+            <label>
+                <input type="checkbox" name="Platter" value="@Model.Names[2]" checked="@Model.Platter" />
+                Platters
+            </label>
+        </div>
+    </div>
+
+    <div id="filters">
+        <h4 class="range-headers">Price</h4>
+        <div class="range-div">
+            Between
+            <input name="PriceMin" type="number" min="0" max="15.00" step="0.01" placeholder="min" value="@Model.PriceMin" />
+            and
+            <input name="PriceMax" type="number" min="0" max="15.00" step="0.01" placeholder="max" value="@Model.PriceMax" />
+        </div>
+
+        <h4 class="range-headers">Calories</h4>
+        <div class="range-div">
+            Between
+            <input name="CalorieMin" type="number" min="0" max="5000" step="1" placeholder="min" value="@Model.CalorieMin" />
+            and
+            <input name="CalorieMax" type="number" min="0" max="5000" step="1" placeholder="max" value="@Model.CalorieMax" />
+        </div>
+    </div>
+
+    <p style="height:20px" />
+
+    <div class="menu-item">
+        <h1 id="treat-title" class="table_headers">Treats</h1>
+        <ul class="menu-list">
+            @foreach (IMenuItem i in Model.Treats)
+            {
+                <li class="list-style">
+                    <div class="div-layout">
+                        <p style="font-weight:bold">@i.Name</p>
+                        <p class="p-style">Price: @i.Price</p>
+                        <p class="p-style">Calories: @i.Calories</p>
+                    </div>
+                </li>
+            }
+        </ul>
+        <p style="30px" />
+        <h1 id="popper-title" class="table_headers">Poppers</h1>
+        <ul class="menu-list">
+            @foreach (Popper i in Model.Poppers)
+            {
+                <li class="list-style">
+                    <div class="div-layout">
+                        <p style="font-weight:bold">@i.Name</p>
+                        <p class="p-style">
+                            @if (i.Glazed)
+                            {
+                                @:Glazed<br />
+                            }
+                            else
+                            {
+                                @:Not Glazed<br />
+                            }
+                        </p>
+                        <p class="p-style">Price: @i.Price</p>
+                        <p class="p-style">Calories: @i.Calories</p>
+                    </div>
+                </li>
+            }
+        </ul>
+        <p style="30px" />
+        <h1 id="platter-title" class="table_headers">Platters</h1>
+        <ul class="menu-list">
+            @foreach (IMenuItem i in Model.Platters)
+            {
+                <li class="list-style">
+                    <div class="div-layout">
+                        <p style="font-weight:bold">@i.Name</p>
+                        <p class="p-style">
+                            @if (i is PopperPlatter p)
+                            {
+                                if (p.Glazed)
+                                {
+                                    @:Glazed<br />
+                                }
+                                else
+                                {
+                                    @:Not Glazed<br />
+                                }
+                            }
+                            else if (i is PiperPlatter x)
+                            {
+                                @x.LeftPie.Name<br />
+                                @x.RightPie.Name<br />
+                                @x.LeftIceCream.Name<br />
+                                @x.RightIceCream.Name<br />
+                            }
+                        </p>
+                        <p class="p-style">Price: @i.Price</p>
+                        <p class="p-style">Calories: @i.Calories</p>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</form>
+
